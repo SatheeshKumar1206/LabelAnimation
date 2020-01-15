@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LabelAnimation_Example' do
+  pod 'LabelAnimation', :path => '../'
+
+  target 'LabelAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
