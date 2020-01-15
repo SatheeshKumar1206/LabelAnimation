@@ -1,0 +1,16 @@
+PODS:
+  - LabelAnimation (0.1.0)
+
+DEPENDENCIES:
+  - LabelAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  LabelAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LabelAnimation: 6268dba9c875dfefb2ad5849ef9d08bc30e20531
+
+PODFILE CHECKSUM: 3c24b6fd0a3a35d802880d37377bff92b5e1db2f
+
+COCOAPODS: 1.8.4

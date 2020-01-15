@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import LabelAnimation
+import LabelAnimViewController
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let animation = LabelAnimViewController
         // Do any additional setup after loading the view, typically from a nib.
     }
 

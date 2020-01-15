@@ -1,0 +1,6 @@
+framework module LabelAnimation {
+  umbrella header "LabelAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

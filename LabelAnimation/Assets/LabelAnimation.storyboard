@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Label Anim View Controller-->
+        <scene sceneID="qvC-7L-s7i">
+            <objects>
+                <viewController id="7EF-al-0tQ" customClass="LabelAnimViewController" customModule="LabelAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iNP-OH-IDF"/>
+                        <viewControllerLayoutGuide type="bottom" id="uR1-71-bD5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hmK-75-Tkm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animating Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5C-kj-3fG">
+                                <rect key="frame" x="26" y="283.5" width="323" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="qMB-xK-Ulm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="G5C-kj-3fG" secondAttribute="trailing" constant="10" id="L8X-LO-xqt"/>
+                            <constraint firstItem="G5C-kj-3fG" firstAttribute="centerY" secondItem="hmK-75-Tkm" secondAttribute="centerY" id="UfZ-c0-bW3"/>
+                            <constraint firstItem="G5C-kj-3fG" firstAttribute="leading" secondItem="hmK-75-Tkm" secondAttribute="leadingMargin" constant="10" id="uKV-Ht-4xM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yap-gH-b74" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="6.746626686656672"/>
+        </scene>
+    </scenes>
+</document>
