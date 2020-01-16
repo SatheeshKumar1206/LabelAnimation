@@ -15,7 +15,30 @@ public class LabelAnimViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    public func loadvcFromBundle() -> LabelAnimViewController? {
+        
+        let podBundle = Bundle(for: LabelAnimViewController.self)
+        if let bundleURL = podBundle.url(forResource: "LabelAnimation", withExtension: "bundle") {
+            
+            if let bundle = Bundle(url: bundleURL) {
+                
+                let registerTenantSB = UIStoryboard(name: "LabelAnimation", bundle: bundle)
+                let registerTenantSuccessVC = registerTenantSB.instantiateViewController(withIdentifier: "LabelAnimViewController") as! LabelAnimViewController
 
+                return registerTenantSuccessVC
+            }else {
+                
+                assertionFailure("Could not load the bundle")
+                
+            }
+            
+        }else {
+            
+            assertionFailure("Could not create a path to the bundle")
+            
+        }
+        return nil
+    }
     /*
     // MARK: - Navigation
 
