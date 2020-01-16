@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A95544943CF05DE793445E0A445E3A /* LabelAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03B533032F65BF24682BFFD3DD8AE7 /* LabelAnimation-dummy.m */; };
+		218D9614EAAD133245CBD4F949C5DED1 /* LabelAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4789E367DFF1301BB7CE3817CFFB5F9A /* LabelAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219AF4214BE086863C302859A9A657FB /* LabelAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */; };
 		277E9072F16E2A262E7C7875F5D852CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4F439A393C6922BE076973A52F94139A /* Pods-LabelAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EBDEA076A4D8C54671695D7EE154A6 /* Pods-LabelAnimation_Tests-dummy.m */; };
 		8D1C49DF5FC2530E57DCDB9CB4254753 /* Pods-LabelAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0622F81681F91C2C40D51A607CF8563F /* Pods-LabelAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2EB1D5A05060AC7EF05DDF483C6146 /* LabelAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58135807B04E51D8AE87E06668D1039 /* LabelAnimViewController.swift */; };
 		A452EF63048A6D7DFB4E3599A043DFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A83B36132CCBEE0B5F79AEF3A7B8E98A /* Pods-LabelAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331A619EBE832E00B445C29DD9685C7E /* Pods-LabelAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5CC6C6E4AEF2FCF5E57FD009D1510A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DA6C5EEC58F695B086DA496DE52D51B7 /* LabelAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9A3F8DCE58BB19A6EBD3D98F8808C /* LabelAnimViewController.swift */; };
+		D0F77EFCE2D70F5AEE8F2BDA626018AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DC96D0338D87404A62DC540E03051B0E /* Pods-LabelAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9A575859225800D76C1B5AE5CA9DC /* Pods-LabelAnimation_Example-dummy.m */; };
-		E49CF5E13467738DA0D9A3C5C91BAF23 /* AnimLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E08A2995F7DBBDD14762E94FE70319B /* AnimLabel.swift */; };
-		E4F69F35CD8A13CE016E9845C42028B8 /* LabelAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A9D70478EAFC813E87BFE17B4F932A /* LabelAnimation-dummy.m */; };
-		E7A1810A3DD9C1D915E6ECBD951A4CF8 /* LabelAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5748EFB9FC1046D4A9055091994355 /* LabelAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE26840774D8AB9FDF64410606BAC0C7 /* AnimLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F73D233E92A15AAC4DEEEF6AE012D /* AnimLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,45 +36,62 @@
 			remoteGlobalIDString = 7627F8D185D48C29BE02E4CAC1FB6520;
 			remoteInfo = "Pods-LabelAnimation_Example";
 		};
+		F3D53C29F51A5AE99C81192FFE747E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE36FFAD32C84B5BFC802BD311C84638;
+			remoteInfo = "LabelAnimation-LabelAnimation";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0622F81681F91C2C40D51A607CF8563F /* Pods-LabelAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1211E913E0C3B9F38281265FC5A66394 /* Pods-LabelAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		13D9A3F8DCE58BB19A6EBD3D98F8808C /* LabelAnimViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelAnimViewController.swift; path = LabelAnimation/Classes/LabelAnimViewController.swift; sourceTree = "<group>"; };
 		146D2B40E45C9B5D6F49FA564AB13F05 /* Pods_LabelAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LabelAnimation_Example.framework; path = "Pods-LabelAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0B2D07495F950190B70B2673EFDCFB /* Pods-LabelAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E08A2995F7DBBDD14762E94FE70319B /* AnimLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimLabel.swift; path = LabelAnimation/Classes/AnimLabel.swift; sourceTree = "<group>"; };
+		2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LabelAnimation.bundle; path = "LabelAnimation-LabelAnimation.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB53A0488D3E5D475A0AFF23821EEB9 /* Pods-LabelAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F2466076C38639588B3580276FF1F02 /* ResourceBundle-LabelAnimation-LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LabelAnimation-LabelAnimation-Info.plist"; sourceTree = "<group>"; };
+		2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LabelAnimation.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3289B0B9C0BAC73156B38A9701CF3F19 /* LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LabelAnimation-Info.plist"; sourceTree = "<group>"; };
 		331A619EBE832E00B445C29DD9685C7E /* Pods-LabelAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
 		387B28D4DDE41C713E7C990C9DF029DD /* Pods-LabelAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		397D683732D8150F9E1817C87D064921 /* LabelAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LabelAnimation.modulemap; sourceTree = "<group>"; };
-		52DA2D3EBF556A53F615B7AAAF60C81D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3FB343FC47D154235244FE5DC1ED9C7F /* LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LabelAnimation-Info.plist"; sourceTree = "<group>"; };
+		4789E367DFF1301BB7CE3817CFFB5F9A /* LabelAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-umbrella.h"; sourceTree = "<group>"; };
+		5A6B10EE9B22B09D9F660754690B9EAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5B13FA4C3B31CB861C1B6BBD37B2FC28 /* Pods-LabelAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
 		60A9A575859225800D76C1B5AE5CA9DC /* Pods-LabelAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimation_Example-dummy.m"; sourceTree = "<group>"; };
-		61BD5B26F1896168D0B58F1851AEA225 /* LabelAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LabelAnimation.xcconfig; sourceTree = "<group>"; };
 		7B9289FF793335370EE846A4A8C6D94C /* Pods-LabelAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		87A9D70478EAFC813E87BFE17B4F932A /* LabelAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LabelAnimation-dummy.m"; sourceTree = "<group>"; };
+		85A753EED22D0F1DB2D7803DC8BF1331 /* LabelAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-prefix.pch"; sourceTree = "<group>"; };
 		8C9E02B553EE2F094AF39B52EE13AC17 /* LabelAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LabelAnimation.framework; path = LabelAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDE0B849623DD53B453872D5AAF7BAE /* Pods_LabelAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LabelAnimation_Tests.framework; path = "Pods-LabelAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5748EFB9FC1046D4A9055091994355 /* LabelAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-umbrella.h"; sourceTree = "<group>"; };
 		A7B40107B7B51F447566B4CCC4C8BE7B /* Pods-LabelAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A86006DBE2A7F0EB6ADECB9B4FFFC60E /* Pods-LabelAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LabelAnimation_Tests.modulemap"; sourceTree = "<group>"; };
 		AEF3ECDE8EE7D07F624A7DDFE5F497E8 /* Pods-LabelAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LabelAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		B22580DA1B24118B3477F0EF09380BB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B38F73D233E92A15AAC4DEEEF6AE012D /* AnimLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimLabel.swift; path = LabelAnimation/Classes/AnimLabel.swift; sourceTree = "<group>"; };
+		B58135807B04E51D8AE87E06668D1039 /* LabelAnimViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelAnimViewController.swift; path = LabelAnimation/Classes/LabelAnimViewController.swift; sourceTree = "<group>"; };
+		B729347C6DC69EE921630D032D14017A /* LabelAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LabelAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFAD4320481E0FFECEE324223A206C45 /* Pods-LabelAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1EBDEA076A4D8C54671695D7EE154A6 /* Pods-LabelAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA999A3C216465B04CA79473EC605323 /* Pods-LabelAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Example-Info.plist"; sourceTree = "<group>"; };
+		CD03B533032F65BF24682BFFD3DD8AE7 /* LabelAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LabelAnimation-dummy.m"; sourceTree = "<group>"; };
 		D1F6063C2C83197BEB0F1BC5BCB5F037 /* Pods-LabelAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0D26A753E6BFE4A2EE2ABD1E4A09E81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E59F0E0B48E91C146B945F2A167D0315 /* LabelAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LabelAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F0E187F2951AE6228D6DAB74163F12ED /* LabelAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-prefix.pch"; sourceTree = "<group>"; };
+		D7C63809EF96C2DF3F7ECC9300D3844A /* LabelAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LabelAnimation.modulemap; sourceTree = "<group>"; };
 		F7AA280576EC1185DBDC058AD62679F2 /* Pods-LabelAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		152D4DE6F157B6D14A92EE99AA8011DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F77EFCE2D70F5AEE8F2BDA626018AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DEEF11A7D50D8EA7EC1BDDD7F3107CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,11 +108,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1DF811AD66F705A1E5930D5FA17BE90 /* Frameworks */ = {
+		E50339A53FA38742839F7532CFB02711 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5CC6C6E4AEF2FCF5E57FD009D1510A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,18 +134,6 @@
 			path = "Target Support Files/Pods-LabelAnimation_Tests";
 			sourceTree = "<group>";
 		};
-		4BFB4136D66BD00C2E0E09524B53A0EB /* LabelAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				1E08A2995F7DBBDD14762E94FE70319B /* AnimLabel.swift */,
-				13D9A3F8DCE58BB19A6EBD3D98F8808C /* LabelAnimViewController.swift */,
-				93D19EF3B7B0E19D3CA69B18A31382D0 /* Pod */,
-				937CD65AC3BC6A1F25E0EB923E380CE8 /* Support Files */,
-			);
-			name = LabelAnimation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		6069C50D6E86E917954A2C00BE9DE775 /* Pods-LabelAnimation_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,9 +151,10 @@
 			path = "Target Support Files/Pods-LabelAnimation_Example";
 			sourceTree = "<group>";
 		};
-		63A2630A47A7A8A2720A8901AA5800D1 /* Products */ = {
+		7267ED0BB2BEC75DEA8A77FDE4B924F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */,
 				8C9E02B553EE2F094AF39B52EE13AC17 /* LabelAnimation.framework */,
 				146D2B40E45C9B5D6F49FA564AB13F05 /* Pods_LabelAnimation_Example.framework */,
 				9BDE0B849623DD53B453872D5AAF7BAE /* Pods_LabelAnimation_Tests.framework */,
@@ -156,26 +162,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		937CD65AC3BC6A1F25E0EB923E380CE8 /* Support Files */ = {
+		8AFC9BFE2E9B1201A7BE3797BDB196BB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				397D683732D8150F9E1817C87D064921 /* LabelAnimation.modulemap */,
-				61BD5B26F1896168D0B58F1851AEA225 /* LabelAnimation.xcconfig */,
-				87A9D70478EAFC813E87BFE17B4F932A /* LabelAnimation-dummy.m */,
-				3289B0B9C0BAC73156B38A9701CF3F19 /* LabelAnimation-Info.plist */,
-				F0E187F2951AE6228D6DAB74163F12ED /* LabelAnimation-prefix.pch */,
-				9E5748EFB9FC1046D4A9055091994355 /* LabelAnimation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LabelAnimation";
-			sourceTree = "<group>";
-		};
-		93D19EF3B7B0E19D3CA69B18A31382D0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E59F0E0B48E91C146B945F2A167D0315 /* LabelAnimation.podspec */,
-				52DA2D3EBF556A53F615B7AAAF60C81D /* LICENSE */,
-				E0D26A753E6BFE4A2EE2ABD1E4A09E81 /* README.md */,
+				B729347C6DC69EE921630D032D14017A /* LabelAnimation.podspec */,
+				B22580DA1B24118B3477F0EF09380BB2 /* LICENSE */,
+				5A6B10EE9B22B09D9F660754690B9EAE /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -203,7 +195,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				DA6B90C3EC75FE9DBC9285BE36E94B7A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				63A2630A47A7A8A2720A8901AA5800D1 /* Products */,
+				7267ED0BB2BEC75DEA8A77FDE4B924F4 /* Products */,
 				A2D5E4C03D8673FA0A6A521F811257D7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -219,27 +211,54 @@
 		DA6B90C3EC75FE9DBC9285BE36E94B7A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BFB4136D66BD00C2E0E09524B53A0EB /* LabelAnimation */,
+				F10551F14DC960CF1EF8E27BC4F10459 /* LabelAnimation */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E0290F1A54EF25C5CCC0A9FDC7BA1FB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C63809EF96C2DF3F7ECC9300D3844A /* LabelAnimation.modulemap */,
+				2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */,
+				CD03B533032F65BF24682BFFD3DD8AE7 /* LabelAnimation-dummy.m */,
+				3FB343FC47D154235244FE5DC1ED9C7F /* LabelAnimation-Info.plist */,
+				85A753EED22D0F1DB2D7803DC8BF1331 /* LabelAnimation-prefix.pch */,
+				4789E367DFF1301BB7CE3817CFFB5F9A /* LabelAnimation-umbrella.h */,
+				2F2466076C38639588B3580276FF1F02 /* ResourceBundle-LabelAnimation-LabelAnimation-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LabelAnimation";
+			sourceTree = "<group>";
+		};
+		F10551F14DC960CF1EF8E27BC4F10459 /* LabelAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B38F73D233E92A15AAC4DEEEF6AE012D /* AnimLabel.swift */,
+				B58135807B04E51D8AE87E06668D1039 /* LabelAnimViewController.swift */,
+				8AFC9BFE2E9B1201A7BE3797BDB196BB /* Pod */,
+				E0290F1A54EF25C5CCC0A9FDC7BA1FB8 /* Support Files */,
+			);
+			name = LabelAnimation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B196F8985DAE2D75E1B5EEBB23F5BFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218D9614EAAD133245CBD4F949C5DED1 /* LabelAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A567EF68CCA84E0D715DBCE9706BB31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A83B36132CCBEE0B5F79AEF3A7B8E98A /* Pods-LabelAnimation_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F01761B63B6281F8AAF3FBAFE66044B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7A1810A3DD9C1D915E6ECBD951A4CF8 /* LabelAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,21 +313,39 @@
 		};
 		AC8610A798E9437C6E498F62D585E822 /* LabelAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FD5D9BC1C502328C73C09A8400D68BF /* Build configuration list for PBXNativeTarget "LabelAnimation" */;
+			buildConfigurationList = 6138F54F2EB22594A9E7F76A55F1AE06 /* Build configuration list for PBXNativeTarget "LabelAnimation" */;
 			buildPhases = (
-				2F01761B63B6281F8AAF3FBAFE66044B /* Headers */,
-				477F42AF6E3A738CC5237B5FB06BE55D /* Sources */,
-				E1DF811AD66F705A1E5930D5FA17BE90 /* Frameworks */,
-				1706A84958F56AE58E3F8C369F93DAC4 /* Resources */,
+				0B196F8985DAE2D75E1B5EEBB23F5BFB /* Headers */,
+				D64DA1F1BD7FE7ABAAD8A836A73B52CE /* Sources */,
+				152D4DE6F157B6D14A92EE99AA8011DB /* Frameworks */,
+				7166A0609CC8BE05C90BCE75149C8C75 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E926EC71F79E63D2B9B883888435CC65 /* PBXTargetDependency */,
 			);
 			name = LabelAnimation;
 			productName = LabelAnimation;
 			productReference = 8C9E02B553EE2F094AF39B52EE13AC17 /* LabelAnimation.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		AE36FFAD32C84B5BFC802BD311C84638 /* LabelAnimation-LabelAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8264043A26C59EC265C5F816F6DB6E5 /* Build configuration list for PBXNativeTarget "LabelAnimation-LabelAnimation" */;
+			buildPhases = (
+				5641DD986781A7CABF34769C477058EB /* Sources */,
+				E50339A53FA38742839F7532CFB02711 /* Frameworks */,
+				2BDC19F4FAB88D82BFCC39630649FD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LabelAnimation-LabelAnimation";
+			productName = "LabelAnimation-LabelAnimation";
+			productReference = 2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -328,11 +365,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 63A2630A47A7A8A2720A8901AA5800D1 /* Products */;
+			productRefGroup = 7267ED0BB2BEC75DEA8A77FDE4B924F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC8610A798E9437C6E498F62D585E822 /* LabelAnimation */,
+				AE36FFAD32C84B5BFC802BD311C84638 /* LabelAnimation-LabelAnimation */,
 				7627F8D185D48C29BE02E4CAC1FB6520 /* Pods-LabelAnimation_Example */,
 				6FE477692FF1E3ADB5AE9CF278D654D5 /* Pods-LabelAnimation_Tests */,
 			);
@@ -340,10 +378,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1706A84958F56AE58E3F8C369F93DAC4 /* Resources */ = {
+		2BDC19F4FAB88D82BFCC39630649FD9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7166A0609CC8BE05C90BCE75149C8C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219AF4214BE086863C302859A9A657FB /* LabelAnimation.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,13 +410,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		477F42AF6E3A738CC5237B5FB06BE55D /* Sources */ = {
+		5641DD986781A7CABF34769C477058EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49CF5E13467738DA0D9A3C5C91BAF23 /* AnimLabel.swift in Sources */,
-				E4F69F35CD8A13CE016E9845C42028B8 /* LabelAnimation-dummy.m in Sources */,
-				DA6C5EEC58F695B086DA496DE52D51B7 /* LabelAnimViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +422,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F439A393C6922BE076973A52F94139A /* Pods-LabelAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64DA1F1BD7FE7ABAAD8A836A73B52CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE26840774D8AB9FDF64410606BAC0C7 /* AnimLabel.swift in Sources */,
+				15A95544943CF05DE793445E0A445E3A /* LabelAnimation-dummy.m in Sources */,
+				8D2EB1D5A05060AC7EF05DDF483C6146 /* LabelAnimViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,69 +458,29 @@
 			target = AC8610A798E9437C6E498F62D585E822 /* LabelAnimation */;
 			targetProxy = 51DDBC20867C34DE7A422105304DFF6B /* PBXContainerItemProxy */;
 		};
+		E926EC71F79E63D2B9B883888435CC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LabelAnimation-LabelAnimation";
+			target = AE36FFAD32C84B5BFC802BD311C84638 /* LabelAnimation-LabelAnimation */;
+			targetProxy = F3D53C29F51A5AE99C81192FFE747E86 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00DD590495403D47932ED87D8359D78B /* Debug */ = {
+		3C043E02B8251378F8C6DFD6C09548A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61BD5B26F1896168D0B58F1851AEA225 /* LabelAnimation.xcconfig */;
+			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LabelAnimation/LabelAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LabelAnimation/LabelAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LabelAnimation";
+				IBSC_MODULE = LabelAnimation;
+				INFOPLIST_FILE = "Target Support Files/LabelAnimation/ResourceBundle-LabelAnimation-LabelAnimation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LabelAnimation/LabelAnimation.modulemap";
-				PRODUCT_MODULE_NAME = LabelAnimation;
 				PRODUCT_NAME = LabelAnimation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34452B5B450528F92F0B10122AF580C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61BD5B26F1896168D0B58F1851AEA225 /* LabelAnimation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LabelAnimation/LabelAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LabelAnimation/LabelAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LabelAnimation/LabelAnimation.modulemap";
-				PRODUCT_MODULE_NAME = LabelAnimation;
-				PRODUCT_NAME = LabelAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -501,6 +514,55 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53E5FF06B8435A2783FB63E01093F66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LabelAnimation/LabelAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LabelAnimation/LabelAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LabelAnimation/LabelAnimation.modulemap";
+				PRODUCT_MODULE_NAME = LabelAnimation;
+				PRODUCT_NAME = LabelAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B59F7FC1887BE1998CAAF249A19359E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LabelAnimation";
+				IBSC_MODULE = LabelAnimation;
+				INFOPLIST_FILE = "Target Support Files/LabelAnimation/ResourceBundle-LabelAnimation-LabelAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LabelAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -570,6 +632,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A57605FFFD3FC2EBC3C00FEC1062BF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LabelAnimation/LabelAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LabelAnimation/LabelAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LabelAnimation/LabelAnimation.modulemap";
+				PRODUCT_MODULE_NAME = LabelAnimation;
+				PRODUCT_NAME = LabelAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -741,11 +834,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FD5D9BC1C502328C73C09A8400D68BF /* Build configuration list for PBXNativeTarget "LabelAnimation" */ = {
+		6138F54F2EB22594A9E7F76A55F1AE06 /* Build configuration list for PBXNativeTarget "LabelAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00DD590495403D47932ED87D8359D78B /* Debug */,
-				34452B5B450528F92F0B10122AF580C0 /* Release */,
+				A57605FFFD3FC2EBC3C00FEC1062BF01 /* Debug */,
+				53E5FF06B8435A2783FB63E01093F66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8264043A26C59EC265C5F816F6DB6E5 /* Build configuration list for PBXNativeTarget "LabelAnimation-LabelAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B59F7FC1887BE1998CAAF249A19359E /* Debug */,
+				3C043E02B8251378F8C6DFD6C09548A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,13 +8,14 @@
 
 import UIKit
 import LabelAnimation
-import LabelAnimViewController
 
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let animation = LabelAnimViewController
+        //let amin = AnimLabel(
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

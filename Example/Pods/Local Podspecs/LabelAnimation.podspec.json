@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LabelAnimation/Classes/**/*"
+  "source_files": "LabelAnimation/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "LabelAnimation": [
+      "LabelAnimation/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  }
 }

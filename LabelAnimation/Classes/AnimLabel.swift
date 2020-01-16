@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AnimLabel: UILabel {
+public class AnimLabel: UILabel {
 
     public func startBlinking() {
         let options : UIViewAnimationOptions = .repeat //| .autoreverse
