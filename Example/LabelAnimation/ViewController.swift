@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let vc = anim.loadvcFromBundle()!
         
         present(vc, animated:true) {
-            
+            vc.animLabel.
                     }
     }
     
