@@ -9,6 +9,7 @@ import UIKit
 
 public class LabelAnimViewController: UIViewController {
 
+    @IBOutlet weak public var animLabel: UILabel!
     override public func viewDidLoad() {
         super.viewDidLoad()
 

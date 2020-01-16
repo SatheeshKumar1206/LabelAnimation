@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LabelAnimation: 40f09c3e11c752cf1a3c8828beda52244ac7b6c1
+  LabelAnimation: 501dc2a4a9df22caf8e05af0cac65464ee221481
 
 PODFILE CHECKSUM: 3c24b6fd0a3a35d802880d37377bff92b5e1db2f
 

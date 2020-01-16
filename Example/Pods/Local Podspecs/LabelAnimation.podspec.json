@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Pod/Classes/**/*.{swift}",
+  "source_files": "LabelAnimation/Classes/**/*.{swift}",
   "resource_bundles": {
     "LabelAnimation": [
-      "Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+      "LabelAnimation/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}"
     ]
   }
 }

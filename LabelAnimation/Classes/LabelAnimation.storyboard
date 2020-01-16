@@ -38,6 +38,9 @@
                             <constraint firstItem="G5C-kj-3fG" firstAttribute="leading" secondItem="hmK-75-Tkm" secondAttribute="leadingMargin" constant="10" id="uKV-Ht-4xM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animLabel" destination="G5C-kj-3fG" id="PfH-LY-26H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yap-gH-b74" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
