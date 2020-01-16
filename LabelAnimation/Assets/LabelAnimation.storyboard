@@ -12,7 +12,7 @@
         <!--Label Anim View Controller-->
         <scene sceneID="qvC-7L-s7i">
             <objects>
-                <viewController id="7EF-al-0tQ" customClass="LabelAnimViewController" customModule="LabelAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LabelAnimViewController" id="7EF-al-0tQ" customClass="LabelAnimViewController" customModule="LabelAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iNP-OH-IDF"/>
                         <viewControllerLayoutGuide type="bottom" id="uR1-71-bD5"/>
