@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15A95544943CF05DE793445E0A445E3A /* LabelAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03B533032F65BF24682BFFD3DD8AE7 /* LabelAnimation-dummy.m */; };
-		218D9614EAAD133245CBD4F949C5DED1 /* LabelAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4789E367DFF1301BB7CE3817CFFB5F9A /* LabelAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		115FD394F5771FC662D3E8FACE9BF78E /* LabelAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE091F4E317B4246EF7A3D46772A92D /* LabelAnimation.storyboard */; };
+		15A95544943CF05DE793445E0A445E3A /* LabelAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D6ADE1A0238C92EBFC8ACC252392C /* LabelAnimation-dummy.m */; };
+		218D9614EAAD133245CBD4F949C5DED1 /* LabelAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BCB2760FCA97C71A91FDB973F9D10F /* LabelAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		219AF4214BE086863C302859A9A657FB /* LabelAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */; };
 		277E9072F16E2A262E7C7875F5D852CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4F439A393C6922BE076973A52F94139A /* Pods-LabelAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EBDEA076A4D8C54671695D7EE154A6 /* Pods-LabelAnimation_Tests-dummy.m */; };
-		8084212623D04A83007829F5 /* LabelAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8084212523D04A83007829F5 /* LabelAnimation.storyboard */; };
 		8D1C49DF5FC2530E57DCDB9CB4254753 /* Pods-LabelAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0622F81681F91C2C40D51A607CF8563F /* Pods-LabelAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D2EB1D5A05060AC7EF05DDF483C6146 /* LabelAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58135807B04E51D8AE87E06668D1039 /* LabelAnimViewController.swift */; };
+		8D2EB1D5A05060AC7EF05DDF483C6146 /* LabelAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F39F3E5FD0514A020730ADAF12CDF15 /* LabelAnimViewController.swift */; };
 		A452EF63048A6D7DFB4E3599A043DFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A83B36132CCBEE0B5F79AEF3A7B8E98A /* Pods-LabelAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331A619EBE832E00B445C29DD9685C7E /* Pods-LabelAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0F77EFCE2D70F5AEE8F2BDA626018AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DC96D0338D87404A62DC540E03051B0E /* Pods-LabelAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9A575859225800D76C1B5AE5CA9DC /* Pods-LabelAnimation_Example-dummy.m */; };
-		DE26840774D8AB9FDF64410606BAC0C7 /* AnimLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F73D233E92A15AAC4DEEEF6AE012D /* AnimLabel.swift */; };
+		DE26840774D8AB9FDF64410606BAC0C7 /* AnimLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912DDA0C24BCBDB930BA4D142E0ED44 /* AnimLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,41 +47,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06210D2AA3BD3A01CDFC7CD20AEC33E8 /* ResourceBundle-LabelAnimation-LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LabelAnimation-LabelAnimation-Info.plist"; sourceTree = "<group>"; };
 		0622F81681F91C2C40D51A607CF8563F /* Pods-LabelAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0CC125FEA1C1BE64A57AFE8F3D867D6B /* LabelAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LabelAnimation.xcconfig; sourceTree = "<group>"; };
 		1211E913E0C3B9F38281265FC5A66394 /* Pods-LabelAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		146D2B40E45C9B5D6F49FA564AB13F05 /* Pods_LabelAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C6C66182A56F7D1A0AC7363AB0AF80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		146D2B40E45C9B5D6F49FA564AB13F05 /* Pods_LabelAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LabelAnimation_Example.framework; path = "Pods-LabelAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0B2D07495F950190B70B2673EFDCFB /* Pods-LabelAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelAnimation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D454EE580E28AFC7093ED621670EB90 /* LabelAnimation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LabelAnimation.bundle; path = "LabelAnimation-LabelAnimation.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB53A0488D3E5D475A0AFF23821EEB9 /* Pods-LabelAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F2466076C38639588B3580276FF1F02 /* ResourceBundle-LabelAnimation-LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LabelAnimation-LabelAnimation-Info.plist"; sourceTree = "<group>"; };
-		2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LabelAnimation.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		331A619EBE832E00B445C29DD9685C7E /* Pods-LabelAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
 		387B28D4DDE41C713E7C990C9DF029DD /* Pods-LabelAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3FB343FC47D154235244FE5DC1ED9C7F /* LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LabelAnimation-Info.plist"; sourceTree = "<group>"; };
-		4789E367DFF1301BB7CE3817CFFB5F9A /* LabelAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-umbrella.h"; sourceTree = "<group>"; };
-		5A6B10EE9B22B09D9F660754690B9EAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		527D6ADE1A0238C92EBFC8ACC252392C /* LabelAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LabelAnimation-dummy.m"; sourceTree = "<group>"; };
 		5B13FA4C3B31CB861C1B6BBD37B2FC28 /* Pods-LabelAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
+		5F39F3E5FD0514A020730ADAF12CDF15 /* LabelAnimViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelAnimViewController.swift; path = LabelAnimation/Classes/LabelAnimViewController.swift; sourceTree = "<group>"; };
 		60A9A575859225800D76C1B5AE5CA9DC /* Pods-LabelAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		639D1B713ACBDB120296E0DDF845AA0E /* LabelAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LabelAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64D133F51663D698B6698D9CB71511C6 /* LabelAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LabelAnimation.modulemap; sourceTree = "<group>"; };
 		7B9289FF793335370EE846A4A8C6D94C /* Pods-LabelAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8084212523D04A83007829F5 /* LabelAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LabelAnimation.storyboard; path = LabelAnimation/Assets/LabelAnimation.storyboard; sourceTree = "<group>"; };
-		85A753EED22D0F1DB2D7803DC8BF1331 /* LabelAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-prefix.pch"; sourceTree = "<group>"; };
-		8C9E02B553EE2F094AF39B52EE13AC17 /* LabelAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LabelAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BDE0B849623DD53B453872D5AAF7BAE /* Pods_LabelAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83BCB2760FCA97C71A91FDB973F9D10F /* LabelAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-umbrella.h"; sourceTree = "<group>"; };
+		8C9E02B553EE2F094AF39B52EE13AC17 /* LabelAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LabelAnimation.framework; path = LabelAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDE0B849623DD53B453872D5AAF7BAE /* Pods_LabelAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LabelAnimation_Tests.framework; path = "Pods-LabelAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7B40107B7B51F447566B4CCC4C8BE7B /* Pods-LabelAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A86006DBE2A7F0EB6ADECB9B4FFFC60E /* Pods-LabelAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LabelAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		A912DDA0C24BCBDB930BA4D142E0ED44 /* AnimLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimLabel.swift; path = LabelAnimation/Classes/AnimLabel.swift; sourceTree = "<group>"; };
+		AAE091F4E317B4246EF7A3D46772A92D /* LabelAnimation.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LabelAnimation.storyboard; path = LabelAnimation/Classes/LabelAnimation.storyboard; sourceTree = "<group>"; };
 		AEF3ECDE8EE7D07F624A7DDFE5F497E8 /* Pods-LabelAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LabelAnimation_Example.modulemap"; sourceTree = "<group>"; };
-		B22580DA1B24118B3477F0EF09380BB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B38F73D233E92A15AAC4DEEEF6AE012D /* AnimLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimLabel.swift; path = LabelAnimation/Classes/AnimLabel.swift; sourceTree = "<group>"; };
-		B58135807B04E51D8AE87E06668D1039 /* LabelAnimViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelAnimViewController.swift; path = LabelAnimation/Classes/LabelAnimViewController.swift; sourceTree = "<group>"; };
-		B729347C6DC69EE921630D032D14017A /* LabelAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LabelAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD46E43DF965564E2B1705FACAB0171F /* LabelAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LabelAnimation-Info.plist"; sourceTree = "<group>"; };
 		BFAD4320481E0FFECEE324223A206C45 /* Pods-LabelAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1EBDEA076A4D8C54671695D7EE154A6 /* Pods-LabelAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA999A3C216465B04CA79473EC605323 /* Pods-LabelAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation_Example-Info.plist"; sourceTree = "<group>"; };
-		CD03B533032F65BF24682BFFD3DD8AE7 /* LabelAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LabelAnimation-dummy.m"; sourceTree = "<group>"; };
+		CB68411F2F27D74B38481691E3FA29BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D1F6063C2C83197BEB0F1BC5BCB5F037 /* Pods-LabelAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7C63809EF96C2DF3F7ECC9300D3844A /* LabelAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LabelAnimation.modulemap; sourceTree = "<group>"; };
+		E5ACE50910A86A2FDF5F99E77227F8C4 /* LabelAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LabelAnimation-prefix.pch"; sourceTree = "<group>"; };
 		F7AA280576EC1185DBDC058AD62679F2 /* Pods-LabelAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017CCFBC12C721AD873FE679FB0432AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D133F51663D698B6698D9CB71511C6 /* LabelAnimation.modulemap */,
+				0CC125FEA1C1BE64A57AFE8F3D867D6B /* LabelAnimation.xcconfig */,
+				527D6ADE1A0238C92EBFC8ACC252392C /* LabelAnimation-dummy.m */,
+				BD46E43DF965564E2B1705FACAB0171F /* LabelAnimation-Info.plist */,
+				E5ACE50910A86A2FDF5F99E77227F8C4 /* LabelAnimation-prefix.pch */,
+				83BCB2760FCA97C71A91FDB973F9D10F /* LabelAnimation-umbrella.h */,
+				06210D2AA3BD3A01CDFC7CD20AEC33E8 /* ResourceBundle-LabelAnimation-LabelAnimation-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LabelAnimation";
+			sourceTree = "<group>";
+		};
 		1BE8F4B232E44966DD4FE52CC58B906C /* Pods-LabelAnimation_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,16 +179,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8AFC9BFE2E9B1201A7BE3797BDB196BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B729347C6DC69EE921630D032D14017A /* LabelAnimation.podspec */,
-				B22580DA1B24118B3477F0EF09380BB2 /* LICENSE */,
-				5A6B10EE9B22B09D9F660754690B9EAE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A2D5E4C03D8673FA0A6A521F811257D7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +186,22 @@
 				1BE8F4B232E44966DD4FE52CC58B906C /* Pods-LabelAnimation_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4ADBD91DE97D48607F63A959FC52056 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAE091F4E317B4246EF7A3D46772A92D /* LabelAnimation.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9EE5FCD2007E129104DDD810EFA7F86 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A780B0ADEB09930C0C26FE9DD3AFE /* LabelAnimation */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -191,11 +212,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C995A93754B9A1386A62F08303999F66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				639D1B713ACBDB120296E0DDF845AA0E /* LabelAnimation.podspec */,
+				13C6C66182A56F7D1A0AC7363AB0AF80 /* LICENSE */,
+				CB68411F2F27D74B38481691E3FA29BD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DA6B90C3EC75FE9DBC9285BE36E94B7A /* Development Pods */,
+				A9EE5FCD2007E129104DDD810EFA7F86 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7267ED0BB2BEC75DEA8A77FDE4B924F4 /* Products */,
 				A2D5E4C03D8673FA0A6A521F811257D7 /* Targets Support Files */,
@@ -210,37 +241,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA6B90C3EC75FE9DBC9285BE36E94B7A /* Development Pods */ = {
+		FC4A780B0ADEB09930C0C26FE9DD3AFE /* LabelAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F10551F14DC960CF1EF8E27BC4F10459 /* LabelAnimation */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E0290F1A54EF25C5CCC0A9FDC7BA1FB8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7C63809EF96C2DF3F7ECC9300D3844A /* LabelAnimation.modulemap */,
-				2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */,
-				CD03B533032F65BF24682BFFD3DD8AE7 /* LabelAnimation-dummy.m */,
-				3FB343FC47D154235244FE5DC1ED9C7F /* LabelAnimation-Info.plist */,
-				85A753EED22D0F1DB2D7803DC8BF1331 /* LabelAnimation-prefix.pch */,
-				4789E367DFF1301BB7CE3817CFFB5F9A /* LabelAnimation-umbrella.h */,
-				2F2466076C38639588B3580276FF1F02 /* ResourceBundle-LabelAnimation-LabelAnimation-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LabelAnimation";
-			sourceTree = "<group>";
-		};
-		F10551F14DC960CF1EF8E27BC4F10459 /* LabelAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				8084212523D04A83007829F5 /* LabelAnimation.storyboard */,
-				B38F73D233E92A15AAC4DEEEF6AE012D /* AnimLabel.swift */,
-				B58135807B04E51D8AE87E06668D1039 /* LabelAnimViewController.swift */,
-				8AFC9BFE2E9B1201A7BE3797BDB196BB /* Pod */,
-				E0290F1A54EF25C5CCC0A9FDC7BA1FB8 /* Support Files */,
+				A912DDA0C24BCBDB930BA4D142E0ED44 /* AnimLabel.swift */,
+				5F39F3E5FD0514A020730ADAF12CDF15 /* LabelAnimViewController.swift */,
+				C995A93754B9A1386A62F08303999F66 /* Pod */,
+				A4ADBD91DE97D48607F63A959FC52056 /* Resources */,
+				017CCFBC12C721AD873FE679FB0432AE /* Support Files */,
 			);
 			name = LabelAnimation;
 			path = ../..;
@@ -339,7 +347,7 @@
 			buildPhases = (
 				5641DD986781A7CABF34769C477058EB /* Sources */,
 				E50339A53FA38742839F7532CFB02711 /* Frameworks */,
-				2BDC19F4FAB88D82BFCC39630649FD9F /* Resources */,
+				3477C927508EA59025B9C15C8551F541 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -381,10 +389,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BDC19F4FAB88D82BFCC39630649FD9F /* Resources */ = {
+		3477C927508EA59025B9C15C8551F541 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115FD394F5771FC662D3E8FACE9BF78E /* LabelAnimation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +401,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8084212623D04A83007829F5 /* LabelAnimation.storyboard in Resources */,
 				219AF4214BE086863C302859A9A657FB /* LabelAnimation.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +481,7 @@
 /* Begin XCBuildConfiguration section */
 		3C043E02B8251378F8C6DFD6C09548A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			baseConfigurationReference = 0CC125FEA1C1BE64A57AFE8F3D867D6B /* LabelAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LabelAnimation";
@@ -523,7 +531,7 @@
 		};
 		53E5FF06B8435A2783FB63E01093F66F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			baseConfigurationReference = 0CC125FEA1C1BE64A57AFE8F3D867D6B /* LabelAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,7 +563,7 @@
 		};
 		6B59F7FC1887BE1998CAAF249A19359E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			baseConfigurationReference = 0CC125FEA1C1BE64A57AFE8F3D867D6B /* LabelAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LabelAnimation";
@@ -639,7 +647,7 @@
 		};
 		A57605FFFD3FC2EBC3C00FEC1062BF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F2B06C6BE4575A8005733D89D6189B1 /* LabelAnimation.xcconfig */;
+			baseConfigurationReference = 0CC125FEA1C1BE64A57AFE8F3D867D6B /* LabelAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -721,7 +729,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LabelAnimation/Classes/**/*.{swift}'
+  s.source_files = 'Pod/Classes/**/*.{swift}'
   
   s.resource_bundles = {
-     'LabelAnimation' => ['LabelAnimation/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+     'LabelAnimation' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

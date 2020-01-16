@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9A86CDD8E9744F15BA8F6FF7 /* Pods-LabelAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimation_Tests.release.xcconfig"; path = "Target Support Files/Pods-LabelAnimation_Tests/Pods-LabelAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A0E0088FC1D9376EDDA698BB /* LabelAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LabelAnimation.podspec; path = ../LabelAnimation.podspec; sourceTree = "<group>"; };
-		B02F0477F4A353CAF8232F97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0E0088FC1D9376EDDA698BB /* LabelAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LabelAnimation.podspec; path = ../LabelAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B02F0477F4A353CAF8232F97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF814CA40FE2F9D9B69BC55D /* Pods-LabelAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimation_Example.debug.xcconfig"; path = "Target Support Files/Pods-LabelAnimation_Example/Pods-LabelAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD8DA33753332BEC77839C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD8DA33753332BEC77839C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				36D097BC9777E4FD3DEE6D20 /* Pods-LabelAnimation_Tests.debug.xcconfig */,
 				9A86CDD8E9744F15BA8F6FF7 /* Pods-LabelAnimation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
