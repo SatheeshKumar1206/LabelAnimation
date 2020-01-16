@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				47472B0745497A58FDB76044 /* [CP] Embed Pods Frameworks */,
+				55B9964D02D989E39CDBA7DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,22 +262,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		47472B0745497A58FDB76044 /* [CP] Embed Pods Frameworks */ = {
+		55B9964D02D989E39CDBA7DD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LabelAnimation_Example/Pods-LabelAnimation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LabelAnimation/LabelAnimation.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-LabelAnimation_Example/Pods-LabelAnimation_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/LabelAnimation/LabelAnimation.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LabelAnimation.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LabelAnimation.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabelAnimation_Example/Pods-LabelAnimation_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabelAnimation_Example/Pods-LabelAnimation_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		58761EC2DE51231A758B3247 /* [CP] Check Pods Manifest.lock */ = {
