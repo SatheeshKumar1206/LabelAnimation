@@ -27,25 +27,26 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonAction(_ sender: Any) {
-        let bun = Bundle(identifier: "org.cocoapods.LabelAnimation")
+        //let bun = Bundle(identifier: "org.cocoapods.LabelAnimation")
         
-//                let podBundle = Bundle(for: LabelAnimViewController.self)
+                let podBundle = Bundle(for: LabelAnimViewController.self)
+
+                let bundleURL = podBundle.url(forResource: "LabelAnimation", withExtension: "bundle")
+              let bun =  Bundle(url: bundleURL!)!
+        
+        let registerTenantSB = UIStoryboard(name: "LabelAnimation", bundle: bun)
+        let registerTenantSuccessVC = registerTenantSB.instantiateViewController(withIdentifier: "LabelAnimViewController") as! LabelAnimViewController
+        present(registerTenantSuccessVC, animated:true) {
+            registerTenantSuccessVC.animLabel.startBlinking()
+        }
+        
+//        let anim = LabelAnimViewController.init()
 //
-//                let bundleURL = podBundle.url(forResource: "LabelAnimation", withExtension: "bundle")
-//              let bun =  Bundle(url: bundleURL!)!
-        
-//        let registerTenantSB = UIStoryboard(name: "LabelAnimation", bundle: bun)
-//        let registerTenantSuccessVC = registerTenantSB.instantiateViewController(withIdentifier: "LabelAnimViewController") as! LabelAnimViewController
-//        present(registerTenantSuccessVC, animated:true) {
+//        let vc = anim.loadvcFromBundle()!
 //
-//        }
-        
-        let anim = LabelAnimViewController.init()
-        let vc = anim.loadvcFromBundle()!
-        
-        present(vc, animated:true) {
-            vc.animLabel.
-                    }
+//        present(vc, animated:true) {
+//            vc.animLabel.startBlinking()
+//                    }
     }
     
     override func didReceiveMemoryWarning() {
